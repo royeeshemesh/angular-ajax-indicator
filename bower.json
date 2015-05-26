@@ -1,0 +1,20 @@
+{
+  "name": "angular-ajax-indicator",
+  "version": "1.0.0",
+  "homepage": "https://github.com/flexpert/angular-ajax-indicator.git",
+  "authors": [
+    "Royee Shemesh <royee@flexpert.co.il>"
+  ],
+  "description": "A super light Angular.js library for managing ajax calls statues",
+  "main": "dist/angular-ajax-indicator.min.js",
+  "keywords": [
+    "angular",
+    "ajax",
+    "loading"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules"
+  ]
+}
