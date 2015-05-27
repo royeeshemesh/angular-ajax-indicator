@@ -2,7 +2,13 @@
 This is a super light ```Angular.js``` library without any external dependencies for managing and controlling ajax calls, specially for showing and hiding any kind of indication during a specifc call to and from the server.
 Installation
 -
-
+### Bower
+```javascript
+bower install angular-ajax-indicator --save
+```
+```javascript
+angular.module('myApp', ['ajax.indicator']);
+```
 Getting Started
 -
 ### General idea
