@@ -91,3 +91,11 @@ angular.module('ajax.indicator')
       };
     }
   ]);
+
+angular.module('ajax.indicator')
+  .config([
+    '$httpProvider',
+    function($httpProvider) {
+      $httpProvider.interceptors.push('loadingIndicatorHttpInterceptor');
+    }]);
+
