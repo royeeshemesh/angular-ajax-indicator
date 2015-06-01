@@ -1,6 +1,6 @@
 {
   "name": "angular-ajax-indicator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "devDependencies": {
     "gulp": "~3.8.10",
     "del": "~1.1.1",
