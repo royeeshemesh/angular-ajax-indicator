@@ -32,7 +32,11 @@ Except of the **`HttpInterceptor`**, this library also comes with a **`loadingIn
 
 Subscribing for a specific `indicatorId` notifications from the **`HttpInterceptor`** is simple as:
 ```javascript
-loadingIndicatorsService.subscribe([IndicatorId], [RequestNotificationCB], [ResponsetNotificationCB]);
+loadingIndicatorsService.subscribe(
+  [IndicatorId], 
+  [RequestNotificationCB], 
+  [ResponsetNotificationCB]
+);
 ```
 Where:
 * `[IndicatorId]` - a **uniqe** string representing a specific ajax call
